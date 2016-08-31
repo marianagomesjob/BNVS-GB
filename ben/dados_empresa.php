@@ -157,8 +157,7 @@
 					  <li><a href="#tab_2" data-toggle="tab">Departamento</a></li>
 					  <li><a href="#tab_3" data-toggle="tab">Cargos</a></li>
 					  <li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-						Empresa <span class="caret"></span>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Empresa <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="dados_empresa_periodo.php">Período</a></li>
@@ -176,7 +175,7 @@
 						  include "dados_empresa_empresa.php";
 						?>
 					  </div>
-					  <!-- /.tab-pane -->
+					  <!-- /final da tab -->
 					  <div class="tab-pane" id="tab_2">
 						<?php 
 						  include "dados_empresa_departamento.php";
