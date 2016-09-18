@@ -1,17 +1,16 @@
 $("#formulario_empresa").submit(function(){
 
     $.ajax({
-         type: 'POST',
-         url: "dados.php",
-         data: $('#formulario_empresa').serialize(), 
-         success: function(response) {
-            console.log(response);
-            alert(response); 
-            $("#commentList").append("Name:" + $("#name").val() + "<br/>comment:" + $("#body").val());
-         },
-        error: function() {
+        type: 'POST',
+        url: "dados.php",
+        data: $('#formulario_empresa').serialize(), 
+        success: function(response) {
+            //alert(response);
+            window.location.href = '/benvs/empresa.php';
+        },
+        error: function(erro) {
              //$("#commentList").append($("#name").val() + "<br/>" + $("#body").val());
-            alert("Erro no formulário!");
+            alert("Erro no formulário! erro: "+erro);
         }
     });
     return false;

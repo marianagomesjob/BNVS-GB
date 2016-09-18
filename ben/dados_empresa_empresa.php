@@ -100,11 +100,23 @@
 							</div>						
 						</div>	
 						<br>
+						<div class="col-xs-3">
+							<label>Telefone</label>
+							<input required name="telefone" id="telefone" type="text" class="form-control" placeholder="">
+						</div>
+						<div class="col-xs-3">
+							<label>Telefone 2</label>
+							<input name="telefone2" id="telefone2" type="text" class="form-control" placeholder="">
+						</div>
+						<div class="col-xs-4">
+							<label>Contato</label>
+							<input required name="contato_nome" id="contato_nome" type="text" class="form-control" placeholder="">
+						</div>
+						<br>
 						<div class="col-xs-4">
 							<label for="exampleInputEmail1">E-mail para envio de Nota Fiscal</label>
 							<input required name="email_nf" id="email_nf" type="text" class="form-control" placeholder="">
 						</div>
-						
 					</div>	
 					<hr>
 					<br>

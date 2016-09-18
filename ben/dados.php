@@ -7,7 +7,7 @@
 		if($codigo == ''){$codigo = 0;}
 		if($id_ramo_atividade == ''){$id_ramo_atividade = 0;}
 
-		mysql_query("INSERT INTO empresa (
+		$query = mysql_query("INSERT INTO empresa (
 			status, 
 			codigo, 
 			razao_social, 
@@ -16,6 +16,9 @@
 			insc_estadual, 
 			insc_municipal, 
 			id_ramo_atividade, 
+			telefone, 
+			telefone2, 
+			contato_nome, 
 			email_nf, 
 			tx_gestao_geral, 
 			tx_gestao_vt, 
@@ -43,6 +46,9 @@
 			'$insc_estadual', 
 			'$insc_municipal', 
 			$id_ramo_atividade, 
+			'$telefone', 
+			'$telefone2', 
+			'$contato_nome', 
 			'$email_nf', 
 			'$tx_gestao_geral', 
 			'$tx_gestao_vt', 
@@ -63,3 +69,9 @@
 			'$nome_cidade', 
 			'$uf')
 		") or die(mysql_error());
+
+		if($query == FALSE){
+			return false;
+		} else {
+			return true;
+		}
