@@ -1,4 +1,4 @@
-/*CSS-GERAL*/
+﻿/*CSS-GERAL*/
 
 /*Cor Geral*/
 body {
@@ -12,6 +12,14 @@ body {
 	font-size:11px;
 	
 }
+#logo{
+	height:33px;
+	margin-top:-10px;
+	margin-right: 5px;
+	margin-left: 22px;
+	width:63px;
+}
+
 /*Cor de Fundo*/
 .content-wrapper, .right-side {
     background-color: #f4f4f4;
@@ -23,13 +31,11 @@ body {
 /*Fontes*/
 h1 {
     margin: 0;
-    font-size: 24px;
     color: #ac2925;
 	font-family:franklin gothic book font,sans-serif;
 }
 h2 {
     margin: 0;
-    font-size: 24px;
     color: #ac2925;
 	font-family:franklin gothic book font,sans-serif;
 }
@@ -53,17 +59,28 @@ h4{
     margin: 0;
     font-size: 24px;
 }
+/*Cor antiga 8B9772*/
 .skin-blue .main-header .navbar {
-	background-color:#8B9772 !important;
-}
-.skin-blue .main-header .navbar .nav>li>a {
-    color: #8B9772;
+	background-color:#eee !important;
+	
 }
 
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #8B9772 !important;
+}
+
+.dropdown-toggle{
+    color: #791d1d;
+}
 .dropdown-menu>li>a {
     color: #8b9772;
 }
-
+/*Rodapé*/
+.layout-top-nav.layout-top-nav .right-side, .layout-top-nav .main-footer {
+    margin-left: 0;
+    background-color: #eeeeee;
+    border: none;
+}
 /*Botoes-default*/
 .btn-default {
     background-color: #f4f4f4;
@@ -98,6 +115,8 @@ h4{
     border-top-color: #a94442;
 }
 
+
+
 /*Formulario*/
 .form-control {
     border-radius: 0;
@@ -106,6 +125,7 @@ h4{
 	color: #8b9772;
 	border-radius:4px;
 }
+
 
 input[type=text]:hover{ 
     background: #ffffff; 

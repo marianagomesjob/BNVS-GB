@@ -1,5 +1,5 @@
 <?php
-
+//Atividade
 	include('conexao.php');
 
 		extract($_POST);

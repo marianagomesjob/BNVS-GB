@@ -1,5 +1,5 @@
 <?php
-
+//dados
 	include('conexao.php');
 
 		extract($_POST);

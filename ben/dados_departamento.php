@@ -1,5 +1,5 @@
 <?php
-
+//departamento
 	include('conexao.php');
 
 		extract($_POST);

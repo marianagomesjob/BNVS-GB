@@ -1,5 +1,5 @@
 <?php
-
+//dados cargos
 	include('conexao.php');
 
 		extract($_POST);

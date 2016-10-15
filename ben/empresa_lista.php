@@ -14,14 +14,13 @@
 		ORDER BY 
 		razao_social 
 		ASC");
-
 ?>
 
 <div class="box box-default">
 
 	 
 	<div class="box">
-	<!--Grupo inicio-->
+	
 		<div class="box-header">
 			<!-- Button trigger modal -->
 			<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">

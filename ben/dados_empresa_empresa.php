@@ -19,7 +19,6 @@
 							</div>
 						</div>
 					</div>
-					<!--Infomações sobre a empresa-->
 					<div class="row">
 						<div class="col-xs-2">
 							<label for="exampleInputEmail1">Código</label>
