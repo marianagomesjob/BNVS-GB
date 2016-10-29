@@ -8,7 +8,7 @@
 		<div class="modal-body">
 			<div class="row">
 				<div class="col-xs-3">
-				<label for="exampleInputEmail1">Código</label> 
+				<label for="exampleInputEmail1">Código*</label> 
 				<input type="text" class="form-control" placeholder="">
 				</div>	
 				
